@@ -13,7 +13,7 @@ type BlogProp = {
 const Blog = ({ params }: BlogProp) => {
   return (
     <section>
-      <article className=" px-52 text-weesher-500">
+      <article className=" md:px-20 xl:px-52 text-weesher-500">
         <p className="flex items-center text-[12px] gap-x-2">
           <span className="text-weesher-100">By Ryan Jackson</span>
           <span className="text-weesher-600">{params.blogId} Month Ago</span>
@@ -34,16 +34,7 @@ const Blog = ({ params }: BlogProp) => {
           augue interdum velit. Tellus elementum sagittis vitae et leo duis ut
           diam. Eget nullam non nisi est sit amet. Dignissim suspendisse in est
           ante in nibh mauris. Nec feugiat in fermentum posuere urna. Diam in
-          arcu cursus euismod quis viverra. Facilisis mauris sit amet massa
-          vitae tortor condimentum lacinia. Diam quam nulla porttitor massa id
-          neque aliquam vestibulum morbi. Sed egestas egestas fringilla
-          phasellus faucibus scelerisque eleifend. Sed elementum tempus egestas
-          sed sed risus pretium quam vulputate. Lacus sed turpis tincidunt id
-          aliquet risus feugiat in ante. Viverra nibh cras pulvinar mattis nunc
-          sed blandit libero. Morbi tincidunt augue interdum velit euismod in.
-          Accumsan lacus vel facilisis volutpat est velit egestas dui. Erat
-          pellentesque adipiscing commodo elit at imperdiet. Quis risus sed
-          vulputate odio ut. Nulla aliquet enim tortor at auctor urna.
+          arcu cursus euismod quis viverra.
         </p>
         <p className="flex justify-center items-center my-10">
           <Image src={'/monokai.png'} alt="" width={500} height={330} />
@@ -83,7 +74,11 @@ const Blog = ({ params }: BlogProp) => {
       </article>
       <article>
         <h4 className=" font-black text-xl">More Articles</h4>
-        <Card item={1} />
+        <section className="block sm:grid grid-cols-12 gap-10 ">
+          {[1, 2, 3].map((id) => (
+            <Card key={id} item={id} />
+          ))}
+        </section>
       </article>
     </section>
   );
