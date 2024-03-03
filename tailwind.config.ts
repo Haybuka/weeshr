@@ -13,6 +13,9 @@ const config: Config = {
           100: '#4B4B4B',
           200: '#EF5623',
           300: '#F5F5F5',
+          400: '#1473E6',
+          500: '#6E6E6E',
+          600: '#2C2C2C',
         },
       },
       backgroundImage: {
