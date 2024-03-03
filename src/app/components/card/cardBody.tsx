@@ -1,12 +1,13 @@
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Inter, Poppins } from 'next/font/google';
 import cls from 'classnames';
 import ArrowIcon from '@/app/icons/arrow';
 
 const inter = Inter({ subsets: ['latin'] });
+const poppins = Poppins({ weight: ['900', '400'], subsets: ['latin'] });
 
 const CardBody = () => {
   return (
-    <article className=" text-weesher-500 p-1 mt-2">
+    <article className={cls(poppins.className, 'text-weesher-500 p-1 mt-2')}>
       <div>
         <p className="text-[12px]">
           <span className=" text-weesher-100">Front-end </span>
@@ -14,7 +15,7 @@ const CardBody = () => {
           <span className=" text-weesher-500">1 Hour ago</span>
         </p>
       </div>
-      <h4 className={cls(' text-weesher-600 font-bold my-2', inter.className)}>
+      <h4 className={cls(' text-weesher-600 font-black my-2', inter.className)}>
         Optimizing CSS for faster page loads{' '}
       </h4>
       <p className="text-[14px] my-3 text-weesher-500">

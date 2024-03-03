@@ -1,7 +1,9 @@
 import Image from 'next/image';
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import cls from 'classnames';
 import Card from '../components/card';
+import ArrowIcon from '../icons/arrow';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -13,6 +15,13 @@ type BlogProp = {
 const Blog = ({ params }: BlogProp) => {
   return (
     <section>
+      <Link href={'/'} className="flex items-center text-weesher-400">
+        {' '}
+        <span className=" -rotate-180">
+          <ArrowIcon />
+        </span>{' '}
+        Back
+      </Link>
       <article className=" md:px-20 xl:px-52 text-weesher-500">
         <p className="flex items-center text-[12px] gap-x-2">
           <span className="text-weesher-100">By Ryan Jackson</span>
@@ -73,7 +82,9 @@ const Blog = ({ params }: BlogProp) => {
         </p>
       </article>
       <article>
-        <h4 className=" font-black text-xl">More Articles</h4>
+        <h4 className={cls(inter.className, ' font-black text-xl my-3')}>
+          More Articles
+        </h4>
         <section className="block sm:grid grid-cols-12 gap-10 ">
           {[1, 2, 3].map((id) => (
             <Card key={id} item={id} />

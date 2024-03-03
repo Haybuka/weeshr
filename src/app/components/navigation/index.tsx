@@ -6,9 +6,9 @@ const Navigation = () => {
   return (
     <header>
       <nav className="flex justify-between items-center mb-12">
-        <h3>
+        <Link href={'/'}>
           <Image src={'/logo.png'} width={60} height={60} alt="" />
-        </h3>
+        </Link>
         <ul className="flex items-center">
           {navItems.map((item, id) => (
             <>
