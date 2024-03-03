@@ -91,6 +91,7 @@ const Blog = async ({ params }: BlogProp) => {
         <h4 className={cls(inter.className, ' font-black text-xl my-3')}>
           More Articles
         </h4>
+
         <section className="block sm:grid grid-cols-12 gap-10 ">
           {blogData.map((blog, id) => (
             <Card key={id} item={blog} />
