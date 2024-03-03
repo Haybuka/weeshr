@@ -2,7 +2,6 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import cls from 'classnames';
 import ArrowIcon from '@/app/icons/arrow';
 
-const playFair = Playfair_Display({ weight: '900', subsets: ['latin'] });
 const inter = Inter({ subsets: ['latin'] });
 
 const CardBody = () => {
