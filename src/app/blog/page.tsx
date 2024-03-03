@@ -2,17 +2,20 @@ import { Inter } from 'next/font/google';
 import cls from 'classnames';
 import Banner from '../components/banner';
 import Card from '../components/card';
+import { getBlogs } from '../api/posts/route';
+import { _getPosts } from '../api/posts/getPosts';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
-  // throw new Error('Network error');
+export default async function Home() {
+  const blogData = await _getPosts();
+
   return (
     <main>
       <Banner />
       <section className="block sm:grid grid-cols-12 gap-10 my-14">
-        {[1, 2, 3, 4, 5, 6].map((id) => (
-          <Card key={id} item={id} />
+        {blogData.map((blog, id) => (
+          <Card key={id} item={blog} />
         ))}
       </section>
       <section className="text-center">
