@@ -1,13 +1,20 @@
 import React from 'react';
 import CardBody from './cardBody';
 import CardHead from './cardHead';
+import Link from 'next/link';
 
-const Card = () => {
+type CardProp = {
+  item: number;
+};
+const Card = ({ item }: CardProp) => {
   return (
-    <div className="border-weesher-300 border p-1 rounded-md my-6 sm:my-0 sm:col-span-6 xl:col-span-4 ">
+    <Link
+      href={`${item}`}
+      className="border-weesher-300 border p-1 rounded-md my-6 sm:my-0 sm:col-span-6 xl:col-span-4 "
+    >
       <CardHead />
       <CardBody />
-    </div>
+    </Link>
   );
 };
 

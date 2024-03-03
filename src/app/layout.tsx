@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={cls(inter.className, 'px-4 md:px-20 py-4')}>
         <Navigation />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
