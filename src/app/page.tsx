@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <main>
       <Banner />
-      <section className="grid grid-cols-12 ">
-        {[1, 2, 3, 4].map((id) => (
+      <section className="grid grid-cols-12 gap-10 my-14">
+        {[1, 2, 3, 4, 5].map((id) => (
           <Card key={id} />
         ))}
       </section>
