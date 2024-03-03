@@ -20,6 +20,7 @@ export type YoastHeadJSON = {
   og_image: OgImage[];
   author: string;
   twitter_misc: TwitterMisc;
+  article_section: articleSection;
 };
 
 export type OgImage = {
@@ -33,3 +34,5 @@ export type TwitterMisc = {
   'Written by': string;
   'Est. reading time': string;
 };
+
+export type articleSection = [string];
