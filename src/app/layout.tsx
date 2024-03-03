@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import DesktopNav from './components/desktopNav';
 import Footer from './components/footer';
 import cls from 'classnames';
+import Navigation from './components/navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cls(inter.className, 'px-20 py-4')}>
-        <DesktopNav />
+        <Navigation />
         {children}
         <Footer />
       </body>
