@@ -6,6 +6,7 @@ import Card from './components/card';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
+  // throw new Error('Network error');
   return (
     <main>
       <Banner />
