@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import cls from 'classnames';
-import Card from '../components/card';
-import ArrowIcon from '../icons/arrow';
+import Card from '../../components/card';
+import ArrowIcon from '../../icons/arrow';
 import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -15,7 +15,7 @@ type BlogProp = {
 const Blog = ({ params }: BlogProp) => {
   return (
     <section>
-      <Link href={'/'} className="flex items-center text-weesher-400">
+      <Link href={'/blog'} className="flex items-center text-weesher-400">
         {' '}
         <span className=" -rotate-180">
           <ArrowIcon />
