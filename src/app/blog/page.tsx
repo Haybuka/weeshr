@@ -3,7 +3,7 @@ import cls from 'classnames';
 import Banner from '../components/banner';
 import Card from '../components/card';
 import { getBlogs } from '../api/posts/route';
-import { _getPosts } from '../api/getPosts';
+import { _getPosts, useGetPosts } from '../api/getPosts';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,7 +14,7 @@ export default async function Home() {
     <main>
       <Banner />
       <section className="block sm:grid grid-cols-12 gap-10 my-14">
-        {blogData.map((blog, id) => (
+        {blogData?.map((blog, id) => (
           <Card key={id} item={blog} />
         ))}
       </section>
