@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         weesher: {
           100: '#4B4B4B',
+          200: '#EF5623',
+          300: '#F5F5F5',
         },
       },
       backgroundImage: {

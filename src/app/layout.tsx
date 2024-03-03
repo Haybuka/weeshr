@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cls(inter.className, 'px-20 py-4')}>
+      <body className={cls(inter.className, 'px-6 md:px-20 py-4')}>
         <Navigation />
         {children}
         <Footer />

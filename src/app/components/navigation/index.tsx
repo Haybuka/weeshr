@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Navigation = () => {
   return (
     <header>
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center mb-12">
         <h3>
           <Image src={'/logo.png'} width={60} height={60} alt="" />
         </h3>
