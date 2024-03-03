@@ -2,8 +2,7 @@ import { Inter } from 'next/font/google';
 import cls from 'classnames';
 import Banner from '../components/banner';
 import Card from '../components/card';
-import { getBlogs } from '../api/posts/route';
-import { _getPosts, useGetPosts } from '../api/getPosts';
+import { _getPosts } from '../api/getPosts';
 
 const inter = Inter({ subsets: ['latin'] });
 
