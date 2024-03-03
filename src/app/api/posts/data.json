@@ -1,32 +1,32 @@
-[
-  {
-    "id": 2673655,
-    "date": "2024-03-03T09:30:27",
-    "slug": "camshaft-says-byjus-unit-beneficial-owner-of-533-million-funds",
-    "title": {
-      "rendered": "Camshaft says Byju&#8217;s unit beneficial owner of $533 million funds"
-    },
-    "author": 133574269,
-    "yoast_head_json": {
-      "title": "Camshaft says Byju's unit beneficial owner of $533 million funds | TechCrunch",
-      "description": "Camshaft disclosed in court filings this week that some $533 million it managed for Byju's Alpha, a U.S. unit of Indian edtech group Byju's, was Camshaft revealed in court filings this week that some $533 million it managed for Byju's Alpha was transferred to another 100% and U.S.-based subsidiary of Byju's.",
-      "og_url": "https://techcrunch.com/2024/03/03/camshaft-says-byjus-unit-beneficial-owner-of-533-million-funds/",
-
-      "og_image": [
-        {
-          "width": 1200,
-          "height": 800,
-          "url": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-699037346.jpg?resize=1200,800",
-          "type": "image/jpeg"
-        }
-      ],
-      "author": "Manish Singh",
-      "twitter_misc": {
-        "Written by": "Manish Singh",
-        "Est. reading time": "2 minutes"
+{
+  "id": 2673226,
+  "date": "2024-03-03T08:00:12",
+  "slug": "plug-in-south-la-diverse-startup-incubator",
+  "author": 521068,
+  "yoast_head_json": {
+    "title": "Plug In South LA helps build diverse startups in a traditionally underserved area | TechCrunch",
+    "description": "Derek Smith launched Plug In South LA with goal of helping historically under represented people build successful startups.",
+    "og_image": [
+      {
+        "width": 1200,
+        "height": 800,
+        "url": "https://techcrunch.com/wp-content/uploads/2024/03/CKIM9608.jpg?resize=1200,800",
+        "type": "image/jpeg"
       }
-    },
-    "shortlink": "https://tcrn.ch/48G3XQT",
-    "authors": [133574269]
+    ],
+    "author": "Ron Miller",
+    "twitter_misc": {
+      "Written by": "Ron Miller",
+      "Est. reading time": "5 minutes"
+    }
+  },
+
+  "subtitle": "The longterm goal is to bring higher paying jobs to the community",
+
+  "primary_category": {
+    "term_id": 20429,
+    "name": "Startups",
+    "slug": "startups",
+    "description": "Tech startup news that breaks down the funding, growth, and long-term trajectory of companies across every stage and industry. Startup coverage includes climate, crypto, fintech, SaaS, transportation, and consumer tech."
   }
-]
+}

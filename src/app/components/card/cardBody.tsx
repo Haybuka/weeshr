@@ -15,9 +15,7 @@ const CardBody = ({ item }: CardBodyProp) => {
     <article className={cls(poppins.className, 'text-weesher-500 p-1 mt-2')}>
       <div>
         <p className="text-[12px]">
-          <span className=" text-weesher-100">
-            {item.yoast_head_json?.article_section?.map((art, id) => art)}{' '}
-          </span>
+          <span className=" text-weesher-100">Front-end</span>
           <span className=" text-weesher-500">. </span>
           <span className=" text-weesher-500">1 Hour ago</span>
         </p>

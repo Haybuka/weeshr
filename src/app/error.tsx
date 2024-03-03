@@ -7,6 +7,7 @@ type ErrorProps = {
 };
 
 const ErrorBoundary = ({ error, reset }: ErrorProps) => {
+  console.log({ error });
   return (
     <section>
       error - {error.message}

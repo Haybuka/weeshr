@@ -3,7 +3,7 @@ import cls from 'classnames';
 import Banner from '../components/banner';
 import Card from '../components/card';
 import { getBlogs } from '../api/posts/route';
-import { _getPosts } from '../api/posts/getPosts';
+import { _getPosts } from '../api/getPosts';
 
 const inter = Inter({ subsets: ['latin'] });
 
