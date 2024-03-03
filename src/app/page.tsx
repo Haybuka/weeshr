@@ -12,10 +12,9 @@ export default function Home() {
     <main>
       <Banner />
       <section className="block sm:grid grid-cols-12 gap-10 my-14">
-        {/* {[1, 2, 3, 4, 5, 6].map((id) => (
+        {[1, 2, 3, 4, 5, 6].map((id) => (
           <Card key={id} />
-        ))} */}
-        <Card />
+        ))}
       </section>
     </main>
   );
