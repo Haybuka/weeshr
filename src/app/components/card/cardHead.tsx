@@ -9,9 +9,6 @@ type CardHeadProp = {
 const CardHead = ({ item }: CardHeadProp) => {
   const imgUrl = `${item?.yoast_head_json?.og_image[0].url}`;
 
-  // console.log(
-  //   `${item?.yoast_head_json?.og_image[0]?.url.split('.jpg')} image jpg`
-  // );
   return (
     <article className=" text-weesher-500 p-1 bg-[#E5F4FF] flex justify-center items-center w-auto md:overflow-hidden rounded-sm">
       <Image
