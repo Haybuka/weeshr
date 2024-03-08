@@ -55,17 +55,16 @@ const Blog = async ({ params }: BlogProp) => {
           />
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc non
-          blandit massa enim. Pulvinar sapien et ligula ullamcorper malesuada
-          proin libero nunc consequat. Aliquam sem fringilla ut morbi tincidunt
-          augue interdum velit. Tellus elementum sagittis vitae et leo duis ut
-          diam. Eget nullam non nisi est sit amet. Dignissim suspendisse in est
-          ante in nibh mauris. Nec feugiat in fermentum posuere urna. Diam in
-          arcu cursus euismod quis viverra. Facilisis mauris sit amet massa
-          vitae tortor condimentum lacinia. Diam quam nulla porttitor massa id
-          neque aliquam vestibulum morbi. Sed egestas egestas fringilla
-          phasellus faucibus scelerisque eleifend.
+          Theres really not much content to go with, so here have some dummy
+          content. Nunc non blandit massa enim. Pulvinar sapien et ligula
+          ullamcorper malesuada proin libero nunc consequat. Aliquam sem
+          fringilla ut morbi tincidunt augue interdum velit. Tellus elementum
+          sagittis vitae et leo duis ut diam. Eget nullam non nisi est sit amet.
+          Dignissim suspendisse in est ante in nibh mauris. Nec feugiat in
+          fermentum posuere urna. Diam in arcu cursus euismod quis viverra.
+          Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Diam
+          quam nulla porttitor massa id neque aliquam vestibulum morbi. Sed
+          egestas egestas fringilla phasellus faucibus scelerisque eleifend.
         </p>
         <p className="my-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

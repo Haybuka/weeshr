@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default async function Home() {
   const blogData = await _getPosts();
-
+  const main = Math.floor(Math.random() * blogData.length);
   return (
     <main>
-      <Banner />
+      <Banner data={blogData[main]} />
       <section className="block sm:grid grid-cols-12 gap-10 my-14">
         {blogData?.map((blog, id) => (
           <Card key={id} item={blog} />
